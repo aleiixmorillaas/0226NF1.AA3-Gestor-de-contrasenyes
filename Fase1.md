@@ -65,3 +65,34 @@ A continuació, es presenta una anàlisi comparativa entre una solució basada e
 1. **Equilibri entre Seguretat i Operativa:** L'arquitectura de xifratge d'extrem a extrem (*zero-knowledge architecture*) garanteix que les credencials es desxifren únicament en la memòria local del dispositiu de l'usuari.
 2. **Eficiència per a l'Equip Tècnic:** L'equip d'IT requereix accedir de forma ràpida i constant a múltiples entorns (infraestructura en el núvol, servidors locals, panells de gestió). La sincronització automàtica i la integració amb navegadors redueixen el temps de resposta i eviten pràctiques insegures (com l'ús de fulls de càlcul o fitxers de text).
 3. **Escalabilitat Corporativa:** Permet la gestió centralitzada de permisos, facilitant l'alta i baixa d'empleats i la revocació d'accessos a credencials compartides de manera immediata.
+
+
+## Fonts i Referències Tècniques
+
+### 1. Riscos de Seguretat i Gestió de Credencials
+* **NIST Special Publication 800-63B:** *Digital Identity Guidelines - Authentication and Lifecycle Management*. National Institute of Standards and Technology.  
+  [https://pages.nist.gov/800-63-3/sp800-63b.html](https://pages.nist.gov/800-63-3/sp800-63b.html)
+* **OWASP Foundation:** *Credential Stuffing Prevention Cheat Sheet*.  
+  [https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html)
+* **MITRE ATT&CK Framework:** *Technique T1110 - Brute Force (Password Spraying & Credential Stuffing)*.  
+  [https://attack.mitre.org/techniques/T1110/](https://attack.mitre.org/techniques/T1110/)
+
+---
+
+### 2. Documentació de Bitwarden (Model Online / Cloud)
+* **Bitwarden Security Whitepaper:** *End-to-End Encryption and Zero-Knowledge Architecture*.  
+  [https://bitwarden.com/help/bitwarden-security-white-paper/](https://bitwarden.com/help/bitwarden-security-white-paper/)
+* **Bitwarden Official Compliance & Audits:** *Third-Party Security Audits and SOC2 / ISO Compliance*.  
+  [https://bitwarden.com/compliance/](https://bitwarden.com/compliance/)
+* **Bitwarden Source Code Repository:** *Open Source Code Base on GitHub*.  
+  [https://github.com/bitwarden](https://github.com/bitwarden)
+
+---
+
+### 3. Documentació de KeePassXC (Model Offline / Desktop)
+* **KeePassXC Official Documentation:** *Security Architecture & Encryption Specifications (AES-256, ChaCha20, Argon2)*.  
+  [https://keepassxc.org/docs/](https://keepassxc.org/docs/)
+* **KDBX File Format Specification:** *KeePass KDBX v4 Database Container Standard*.  
+  [https://keepass.info/help/kb/kdbx.html](https://keepass.info/help/kb/kdbx.html)
+* **KeePassXC Source Code Repository:** *GPLv3 Open Source Code Base on GitHub*.  
+  [https://github.com/keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
